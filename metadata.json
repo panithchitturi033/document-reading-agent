@@ -1,0 +1,5 @@
+{
+  "name": "Document Reading Agent",
+  "description": "An AI-powered agent that reads uploaded PDF documents to extract key information like name, investment amount, and address using the Gemini API.",
+  "requestFramePermissions": []
+}
