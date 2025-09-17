@@ -1,7 +1,7 @@
 
 // This tells TypeScript that pdfjsLib is available on the global window object.
-declare const pdfjsLib: any;
-
+import * as pdfjsLib from 'pdfjs-dist';
+import 'pdfjs-dist/build/pdf.worker.mjs';
 /**
  * Extracts text content from all pages of a PDF file.
  * @param file The PDF file to process.
